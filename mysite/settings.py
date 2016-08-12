@@ -117,10 +117,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
-
-# https://djangogirlsjapan.gitbooks.io/workshop_tutorialjp/content/deploy/index.html
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# https://djangogirlsjapan.gitbooks.io/workshop_tutorialjp/content/deploy/index.html
 
 import dj_database_url
 DATABASES['default'] = dj_database_url.config()
